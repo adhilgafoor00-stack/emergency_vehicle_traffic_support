@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "config/server.js",
+  "scripts": {
+    "dev": "nodemon config/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node config/server.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^4.2.0",
+    "mongodb": "^6.17.0",
+    "nodemailer": "^6.10.1",
+    "validator": "^13.15.15",
+    "zod": "^4.0.16"
+  }
+}
